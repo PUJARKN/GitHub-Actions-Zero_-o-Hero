@@ -1,3 +1,5 @@
+#dummy function
+
 def test_dummy():
     pass
 
