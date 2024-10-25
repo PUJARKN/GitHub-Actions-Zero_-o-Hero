@@ -1,9 +1,6 @@
 #dummy function
+import subprocess
 
-def test_dummy():
-    pass
-
-def myfunc(*args):
-    return sum(args)* 0.5
-
-print(myfunc(21,35,35,5,45,23,2,3,4))
+subprocess.run([r"C:\Arbeit\CI_CD\SDP_Config.bat"])
+subprocess.run([r"C:\Arbeit\CI_CD\HAL_Config.bat"])
+subprocess.run([r"C:\Arbeit\CI_CD\DRV_Config.bat"])
