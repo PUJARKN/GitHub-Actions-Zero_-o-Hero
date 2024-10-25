@@ -15,5 +15,5 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m pytest UdemyTest.py
-        python -m pytest PyTessyAutomation.py
+        python UdemyTest.py
+        python PyTessyAutomation.py
